@@ -1,0 +1,146 @@
+#searchbox{
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+#searchbox::before{
+  content: "";
+  position: absolute;
+  background: linear-gradient(to right, #c31432 0%, #240b36 100%);
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 1;
+}
+#logout{
+    position: absolute;
+    display: inline-block;
+    right: 20px;
+    top: 16px;
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    height: 40px;
+    border: 2px transparent;
+    border-radius: 5px;
+}
+#logout:hover{
+    color: rgb(181, 178, 173);
+}
+#searchbox form{
+  margin: 20px;
+}
+form.example input{
+  font-size: 16px;
+  border: none;
+  height: 30px;
+}
+form.example button {
+  float: right;
+  padding: 6px 10px;
+  background: #ddd;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  height: 30px;
+}
+
+.box{
+  color: black;
+  border: 4px solid black;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  margin: 16px;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    font-size: 15px;
+  }
+  
+  .active, .collapsible:hover {
+    background-color: #555;
+  }
+  
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
+
+  .form{
+    align-self: center;
+    margin: auto;
+    width: 500px;
+    height: 400px;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+.form::before{
+  content: "";
+  position: absolute;
+  background: url('Images/contact.jpg') no-repeat center center/cover;
+  width: 100%;
+  height: 75%;
+  z-index: -1;
+  opacity: 1;
+  left: 0;
+}
+.input{
+  display: block;
+  align-self: center;
+  margin: auto;
+  width: 500px;
+  height: 30px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  border: 1px solid black;
+  background-color: white;
+  font-size: 1rem;
+  font-weight: normal;
+}
+.listbox{
+  display: block;
+  align-self: center;
+  margin: auto;
+  width: 500px;
+  height: 60px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  border: 1px solid black;
+  background-color: white;
+  font-size: 1rem;
+  font-weight: normal;
+}
+.submit{
+  display: block;
+  align-self: center;
+  margin: auto;
+  width: 300px;
+  height: 30px;
+  border-radius: 20px;
+  margin-bottom: 5px;
+  border: 1px solid black;
+  margin-top: 30px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+.submit:hover{
+  background-color:rgb(138, 132, 132);
+  color: black;
+}
+.heading{
+  padding-top: 20px;
+  text-align: center;
+}

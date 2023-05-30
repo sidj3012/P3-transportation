@@ -1,0 +1,52 @@
+#box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 705px;
+    margin: 0;
+    padding: 0;
+}
+.manufacturer{
+    width: 50%;
+    height: 100%;
+
+    text-align: center;
+}
+.manufacturer::before{
+    content: "";
+    position: absolute;
+    background: url('Images/manufacturer.jpg') no-repeat center center/cover;
+    width: 50%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.5;
+    left: 0;
+}
+.transporter{
+    width: 50%;
+    height: 100%;
+
+    text-align: center;
+}
+.transporter::before{
+    content: "";
+    position: absolute;
+    background: url('Images/Transportation.webp') no-repeat center center/cover;
+    width: 50%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.5;
+    right: 0;
+}
+.heading{
+    margin-top: 275px;
+}
+.btn{
+    color: antiquewhite;
+    height: 100px;
+    width: 350px;
+    background-color: black;
+    font-size: 50px;
+}

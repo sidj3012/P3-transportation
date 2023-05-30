@@ -1,0 +1,107 @@
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+.inputs{
+    background-color: rgb(226, 233, 233);
+    height: 25px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 11px;
+    padding: 5px;
+    margin: 2px;
+}
+#signup textarea{
+    height: 50px;
+}
+#left{
+    height: 700px;
+    width: 70%;
+    box-sizing: border-box;
+    float:left;
+}
+#left::before{
+    content: "";
+    position: absolute;
+    background: url('Images/manufacturer.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.5;
+    left: 0;
+}
+#submit{
+    background-color: rgb(136, 241, 241);
+    height: 35px;
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 11px;
+    padding: 5px;
+    margin: 30px;
+    font-weight: bold;
+    font-size: 18px;
+}
+#submit:hover{
+    color: rgb(76, 76, 173);
+    background-color: black;
+}
+h1 {
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 70px;
+}
+#signup{
+    text-align: center; 
+}
+#right{
+    height: 300px;
+    width: 30%;
+    border: 5px solid black;
+    box-sizing: border-box;
+    float: left;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 200px;
+    background-color: rgb(199, 192, 192);
+}
+.fa {
+    padding: 10px;
+    font-size: 15px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+.fa-facebook {
+background: #3B5998;
+color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-instagram {
+background: #e175b8;
+color: white;
+}
+#logo{
+    text-align: center;
+}
+p{
+    font-size: 30px;
+    padding-top: 50px;
+}
+#signin{
+    background-color: white;
+    height: 35px;
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 11px;
+    padding: 5px;
+    margin: auto auto;
+    font-weight: bold;
+    font-size: 18px;
+}
+#signin:hover{
+    color: rgb(76, 76, 173);
+    background-color: black;
+}

@@ -1,0 +1,3 @@
+Tata Steel,tata@gmail.com,tata,1234,Industrial Area-Kanpur,
+Sid Plastics,sp@gmail.com,spt,spt,Nazar Bagh-Banda(210001),
+Jain Fibres,jain@gmail.com,jain,jain,Banda,
