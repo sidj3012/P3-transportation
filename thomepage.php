@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="homepage.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Bree Serif' rel='stylesheet'>
 </head>
 <body>
 <div id="searchbox">
@@ -35,6 +36,7 @@
     $file=fopen('Users/'.$name.'.txt','r');
     $line=fgets($file);
         $array=explode(",",$line);
+        if (feof($file)) echo '<html><body><h1 class="heading">No Messages Yet</h1></body></html>';
     while(!feof($file)){
         if (isset($array[0])) $orderid=$array[0];
         if (isset($array[1])) $to=$array[1];

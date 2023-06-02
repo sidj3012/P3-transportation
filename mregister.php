@@ -7,11 +7,29 @@
                 $line=fgets($file);
                 $usr='';
                 $array=explode(",",$line);
+                if (isset($array[0])) $name=$array[0];
+                if (isset($array[1])) $email=$array[1];
                 if (isset($array[2])) $usr=$array[2];
                 if ($usr==$_GET["username"]){
                     $temp=0;
                     echo '<script type ="text/JavaScript">';  
                     echo 'alert("Username already exists")';  
+                    echo '</script>';
+                    include 'mregister.html';
+                    break;
+                }
+                if ($name==$_GET["name"]){
+                    $temp=0;
+                    echo '<script type ="text/JavaScript">';  
+                    echo 'alert("Name already exists")';  
+                    echo '</script>';
+                    include 'mregister.html';
+                    break;
+                }
+                if ($email==$_GET["email"]){
+                    $temp=0;
+                    echo '<script type ="text/JavaScript">';  
+                    echo 'alert("Email already registered")';  
                     echo '</script>';
                     include 'mregister.html';
                     break;

@@ -1,3 +1,6 @@
+body{
+  font-family: 'Bree Serif';
+}
 #searchbox{
   display: flex;
   align-items: center;
